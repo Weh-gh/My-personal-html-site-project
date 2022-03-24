@@ -19,3 +19,8 @@ div.weh-bar span a.weh-barLinks {
 div.weh-bar span a.weh-barLinks:Hover {
     margin: 0;
 }
+
+.title_img {
+    float: right;
+    clear: none;
+}
