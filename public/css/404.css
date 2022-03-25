@@ -35,7 +35,8 @@ p {
     line-height: 1.5;
 }
 
-strong.editing404Text {
+
+strong.errorFilename {
     color: #444;
     font-size: x-large;
     font-weight: 600;
