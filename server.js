@@ -1,11 +1,11 @@
-const express = require('express');
-const app = express();
-const include = require('./include.json');
+var express = require('express');
+var app = express();
+var include = require('./include.json');
 var path = require('path');
-const hbs = require('express-hbs');
-const html = require('html');
-const php = require('php');
-const ejs = require('ejs');
+var hbs = require('express-hbs');
+var html = require('html');
+var php = require('php');
+var ejs = require('ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
