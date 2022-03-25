@@ -21,7 +21,7 @@ app.get('/quotes', (req, res) => {
 })
 app.get('*', (req, res) => {
     var route = req.url;
-    res.render('404.html')
+    res.render('404.html', { route });
 })
 
 // Launching the site.

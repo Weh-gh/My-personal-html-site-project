@@ -1,0 +1,26 @@
+html {
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 0 3px 0 #fff;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
