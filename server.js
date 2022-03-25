@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const fetch = require('node-fetch');
-const include = require('./include.json');
 const html = require('html');
 const php = require('php');
 const ejs = require('ejs');
+const include = require('./include.json');
 app.use(express.static(path.join(__dirname, 'public')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
