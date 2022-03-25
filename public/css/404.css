@@ -44,3 +44,8 @@ strong.editing404Text {
 strong.editingPNFText {
     color: #333;
 }
+
+div.suggestions a {
+    color: #333;
+    font-size: 16px;
+}
