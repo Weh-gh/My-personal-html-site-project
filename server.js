@@ -1,11 +1,11 @@
-var express = require('express');
-var app = express();
-var include = require('./include.json');
-var path = require('path');
-var hbs = require('express-hbs');
-var html = require('html');
-var php = require('php');
-var ejs = require('ejs');
+const express = require('express');
+const app = express();
+const path = require('path');
+const fetch = require('node-fetch');
+const include = require('./include.json');
+const html = require('html');
+const php = require('php');
+const ejs = require('ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
