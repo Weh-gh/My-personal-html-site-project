@@ -19,6 +19,9 @@ app.get('/shop', (req, res) => {
 app.get('/quotes', (req, res) => {
     res.render('quotes.html');
 })
+app.get('/discord', (req, res) => {
+    res.render('discord.html');
+})
 app.get('*', (req, res) => {
     var route = req.url;
     res.render('404.html', { route });

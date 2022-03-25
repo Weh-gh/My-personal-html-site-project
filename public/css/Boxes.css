@@ -1,4 +1,4 @@
-div.box, div.pre-Box {
+.box, .pre-Box {
     margin: 1em 0 1em 3%;
     -webkit-border-radius: .3em;
     -moz-border-radius: .3em;
@@ -9,11 +9,11 @@ div.box, div.pre-Box {
     width: 500px;
 }
 
-div.box {
+.box {
     padding: 10px 10px;
 }
 
-div.box {
+.box {
     margin-left: 45px;
 }
 
