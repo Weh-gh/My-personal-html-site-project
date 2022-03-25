@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: #333;
+    background-color: #fff;
+    user-select: none;
+}
+
+.version-hr-style {
+    border: 0;
+    height: 8px;
+    background-color: #F0F0F0;
+    margin: 20px 0px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.version-embed:before, .w-embed:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.version-embed:after {
+    clear: both;
+}
+
+.version-embed:before, .w-embed:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.my-socials {
+    margin-left: 9em;
+}
+
+.community-information {
+    color: #222;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+blockquote {
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+blockquote {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+p, pre, li, dt, dd, table, code, address {
+    line-height: 1.3em; 
+}
+
+p, pre { 
+    margin: 1em 0; 
+}
+
+pre { 
+    overflow: auto; padding-bottom: .3em;
+}
+
+pre {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: #333;
+    width: 50%;
+}
+
+pre.preBox {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: #333;
+    width: 50%;
+}
+
+.follow {
+    box-shadow: inset 0 0 5px 0 #24292f, 0 0 5px 0 #24292f;
+    color: #222;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10.7em;
+}
+
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.joindoc-QKKSJDC {
+    text-decoration: none;
+}
