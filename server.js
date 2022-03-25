@@ -19,6 +19,10 @@ app.get('/shop', (req, res) => {
 app.get('/quotes', (req, res) => {
     res.render('quotes.html');
 })
+app.get('*', (req, res) => {
+    var route = req.url;
+    res.render('404.html')
+})
 
 // Launching the site.
 app.listen(include.port, () => {
