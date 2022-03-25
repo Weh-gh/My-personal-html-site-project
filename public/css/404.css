@@ -24,3 +24,14 @@ h1 {
     letter-spacing: 5px;
     font-size: 60px;
 }
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+}
+
+strong.editing404Text {
+    color: #444;
+    font-size: large;
+    font-weight: 600;
+}
