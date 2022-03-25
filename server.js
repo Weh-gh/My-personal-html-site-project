@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const fetch = require('node-fetch');
 const html = require('html');
 const php = require('php');
 const ejs = require('ejs');
@@ -25,7 +24,7 @@ app.get('*', (req, res) => {
     res.render('404.html', { route });
 })
 
-// Launching the site.
+// Running a site
 app.listen(include.port, () => {
     console.log(`app running on http://localhost:${include.port}`);
 })
