@@ -10,6 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
 
+// files
 app.get('/projects', (req, res) => {
     res.render('projects.html');
 })
