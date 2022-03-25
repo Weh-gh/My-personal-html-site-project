@@ -22,11 +22,9 @@
     "ejs": "^3.1.6",
     "electron": "^17.1.2",
     "express": "^4.17.3",
-    "express-hbs": "^2.4.0",
     "express-session": "^1.17.2",
     "html": "^1.0.0",
     "node-fetch": "^3.2.3",
-    "php": "^1.0.2",
-    "pug": "^3.0.2"
+    "php": "^1.0.2"
   }
 }
