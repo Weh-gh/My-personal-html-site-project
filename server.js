@@ -10,14 +10,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
 
-app.get('/test3', (req, res) => {
-    res.render('test3.html');
-})
 app.get('/projects', (req, res) => {
     res.render('projects.html');
 })
 app.get('/shop', (req, res) => {
     res.render('shop.html');
+})
+app.get('/quotes', (req, res) => {
+    res.render('quotes.html');
 })
 
 // Launching the site.
