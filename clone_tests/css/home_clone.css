@@ -1,0 +1,49 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: #333;
+    background-color: #3178c6;
+    user-select: none;
+}
+
+.container-hero {
+    padding: 200px 0 0 0;
+    text-align: center;
+}
+
+div.container-hero > div.container > h1.who-weh {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+div.dec {
+    margin-top: 20px;
+}
+
+div > h3.h3dec {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d0d7de;
+}
+
+.mt-1 {
+    margin-top: 2em;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.mg-1-weh {
+    margin-left: 16px !important;
+}
+
