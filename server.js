@@ -26,5 +26,5 @@ app.get('*', (req, res) => {
 
 // Launching the site.
 app.listen(include.port, () => {
-    console.log(`Listening at http://localhost:${include.port}`);
+    console.log(`app running on http://localhost:${include.port}`);
 })
