@@ -16,6 +16,9 @@ app.get('/projects', (req, res) => {
 app.get('/shop', (req, res) => {
     res.render('shop.html');
 })
+app.get('/open-source', (req, res) => {
+    res.render('open-source.html');
+})
 app.get('/quotes', (req, res) => {
     res.render('quotes.html');
 })

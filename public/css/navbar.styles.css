@@ -45,8 +45,6 @@ nav {
 
 .nav-links a:hover {
     color: #eee;
-    font-weight: 600;
-    border-bottom: 7px solid #eee;
 }
 
 .nav-links-bg a:hover {
@@ -128,4 +126,41 @@ nav {
 
 .toogle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* The dropdown container */
+.dropdown {
+    overflow: hidden;
+    padding-right: 5em;
+    
+}
+  
+/* Dropdown button */
+.dropdown {    
+    margin: 0; /* Important for vertical align on mobile phones */
+}  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #111;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #666;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
