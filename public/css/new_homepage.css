@@ -38,6 +38,10 @@ div > h3.h3dec {
     margin-top: 2em;
 }
 
+.mt-image {
+    margin-top: 10em;
+}
+
 h1 {
     font-weight: 300;
 }
@@ -53,4 +57,9 @@ h1 {
 
 .mg-3-weh {
     margin-left: 64px;
+}
+
+div.featureimage {
+    text-align: center;
+    padding: 50px;
 }
