@@ -46,3 +46,11 @@ h1 {
 .mg-1-weh {
     margin-left: 16px !important;
 }
+
+.mg-2-weh {
+    margin-left: 32px;
+}
+
+.mg-3-weh {
+    margin-left: 64px;
+}
