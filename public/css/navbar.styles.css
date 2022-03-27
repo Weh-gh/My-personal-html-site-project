@@ -143,12 +143,16 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffff;
+    background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+.dropdown-content a:hover {
+    background-color: #eee; 
+}
   
-  /* Links inside the dropdown */
+/* Links inside the dropdown */
 .dropdown-content a {
     float: none;
     color: #111;
