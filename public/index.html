@@ -14,7 +14,7 @@
               <meta property="og:description" content="Whether you visit Weh's personal website or follow it on social media."/>
               <meta property="og:image" content="https://avatars.github.githubusercontent.com/u/87272164?v4"/>
               <meta property="og:url" content="https://"/>
-              <link href="https://" rel="canonical" />
+              <link href="https://localhost" rel="canonical" />
 
 
   <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/87272164?v=4" />
@@ -33,7 +33,13 @@
   
   <script src="https://kit.fontawesome.com/a7e348920d.js" crossorigin="anonymous"></script>
 
-  <style type="text/css">
+
+  <!-- Scripts -->
+  <script
+    src="./scripts/modal-content.js"
+  ></script>
+
+  <style>
     :root {
       --override-base00: #2D2A2E;
       --override-base01: #403E41;
@@ -128,12 +134,29 @@
     }
   </style>
 
-  <!-- Scripts -->
-  <script
-    type="text/javascript"
-    src="./scripts/modal-content.js"
-  ></script>
-  
+  <style>
+    .btn-normal {
+        color: #333;
+        background: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 200px;
+        text-decoration: none;
+    }
+
+    .btn-normal:hover {
+        color: #333;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: #eee;
+        box-shadow: 0 0 5px #fff;
+        border: 1px solid #fff;
+    }
+  </style>
+
 </head>
 <body>
 
@@ -182,9 +205,10 @@
   </nav>
   <hr style="border-color: #039BE5;"/>
 
-  <script type="text/javascript" src="./scripts/direct--1.js"></script>
+  <!-- The type value of the script resource is unnecessary. And it has been removed! -->
+  <script src="./scripts/direct--1.js"></script>
   
-  <div class="container-hero">
+  <div class="container-home">
     <div class="container">
       <h1 class="who-weh">Who Weh? I am a teenager trying to improve myself in <br><strong>html language and web.</strong></h1>
     </div>
@@ -192,39 +216,13 @@
     <div class="dec">
         <h3 class="h3dec">I am a <strong>high school student</strong> (Young) 15 years old and I've got interests in several areas of <strong>Computer Science</strong>, but primarily work on <strong>web</strong> development.</h3>
     </div>
-    </div>
-
+    
     <div class="mt-1">
-      <center>
-        <a href="/discord" class="btn btn-normal"><span>Join our Discord</span></a>
-      </center>
+        <a href="/discord" class="btn btn-normal Jod" style="text-align: center;"><span>Join our Discord</span></a>
       </div>
       <div class="featureimage">
         <img src="https://miro.medium.com/max/720/0*tunrxqE8i81aRwpn" alt="">
-      </div>  
-  </div>
+      </div>
 
-    <style type="text/css">
-        .btn-normal {
-            color: #333;
-            background: #fff;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            border-radius: 5px;
-            text-align: center;
-            padding: 10px 10px;
-            font-size: 15px;
-            border-radius: 5px;
-            width: 200px;
-            text-decoration: none;
-        }
-
-        .btn-normal:hover {
-            color: #333;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            background: #eee;
-            box-shadow: 0 0 5px #fff;
-            border: 1px solid #fff;
-        }
-    </style>
 </body>
 </html>

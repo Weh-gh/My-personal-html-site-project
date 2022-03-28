@@ -10,12 +10,12 @@ body {
     background-color: #3178c6;
 }
 
-.container-hero {
+.container-home {
     padding: 200px 0 0 0;
     text-align: center;
 }
 
-div.container-hero > div.container > h1.who-weh {
+div.container-home > div.container > h1.who-weh {
     color: #fff;
     font-size: 2.5rem;
     font-weight: 200;
@@ -62,4 +62,10 @@ h1 {
 div.featureimage {
     text-align: center;
     padding: 50px;
+}
+
+.Jod {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
 }
