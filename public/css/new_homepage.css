@@ -69,3 +69,7 @@ div.featureimage {
     left: 50%;
     transform: translate(-50%);
 }
+
+.provide-5em {
+    padding-right: 5em;
+}
