@@ -1,6 +1,6 @@
 
 // Browser Window on Electron
-// Sample; for an Electron - BrowserWindow repository: https://github.com/Weh-gh/electron-broswserwindow
+// Sample; for an Electron - BrowserWindow repository: https://github.com/Weh-gh/electron-browserwindow
 const electron = require('electron');
 const url = require('url');
 const path = require('path');
