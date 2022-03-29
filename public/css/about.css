@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.box, div.pre-Box {
+    border-radius: 1px;
+    height: 500px;
+    width: 50%;
+}
+
+div.container-about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div.container-about > div.container > img.header_img {
+    height: 64px;
+    width: auto;
+    border-radius: 3px;
+    float: left;
+}
+
+div.container-about > div.container > img > h1.header_h1 {
+    margin-left: 1em;
+}
