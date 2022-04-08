@@ -5,7 +5,7 @@
   "main": "server.js",
   "directories": {},
   "scripts": {
-    "start": ""
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
