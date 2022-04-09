@@ -1,5 +1,5 @@
 {
-  "name": "my-personal-html-site-project",
+  "name": "my-site",
   "version": "1.0.0",
   "description": "My personal website where I write code for fun once in a while when I'm bored.",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Weh-gh/my-personal-html-site-project.git"
+    "url": "git+https://github.com/Weh-gh/my-site.git"
   },
   "keywords": [],
   "author": "Weh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Weh-gh/my-personal-html-site-project/issues"
+    "url": "https://github.com/Weh-gh/my-site/issues"
   },
-  "homepage": "https://github.com/Weh-gh/my-personal-html-site-project#readme",
+  "homepage": "https://github.com/Weh-gh/my-site#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "electron": "^17.1.2",
