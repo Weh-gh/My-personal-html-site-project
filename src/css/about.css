@@ -7,12 +7,12 @@ body {
 
 div.box, div.pre-Box {
     border-radius: 1px;
-    height: 500px;
-    width: 50%;
 }
 
 div.container-about {
     position: absolute;
+    height: 500px;
+    width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
