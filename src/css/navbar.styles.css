@@ -26,6 +26,7 @@ nav {
     text-align: center !important;
     display: flex;
     justify-content: space-between;
+    padding-right: 9em;
 }
 
 .nav-links li {
