@@ -16,7 +16,7 @@ body.homepage {
 }
 
 .container-home {
-    padding: 200px 0 0 0;
+    padding: 50px 0 0 0;
     text-align: center;
 }
 
@@ -26,17 +26,21 @@ div.container-home > div.container > h1.who-weh {
     font-weight: 200;
 }
 
-div.dec {
+div.desc {
     margin-top: 20px;
 }
 
-div > h3.h3dec {
+div > p.pdesc {
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
     font-weight: 400;
     font-size: 16px;
     color: #d0d7de;
+}
+
+.weh-gh-my-site-repo {
+    border-radius: 20px;
 }
 
 .mt-1 {
