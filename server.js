@@ -5,6 +5,7 @@ const html = require('html');
 const php = require('php');
 const ejs = require('ejs');
 const server_conf = require('./server.conf.json');
+
 app.use(express.static(path.join(__dirname, 'src')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
