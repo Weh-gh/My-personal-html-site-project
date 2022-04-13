@@ -26,7 +26,6 @@ nav {
     text-align: center !important;
     display: flex;
     justify-content: space-between;
-    padding-right: 5em;
 }
 
 .nav-links li {
@@ -60,7 +59,7 @@ nav {
 
 .burger div {
     width: 25px;
-    height: 3px;
+    height: 5px;
     background-color: #fff;
     margin: 5px;
     transition: all 0.3s ease;
