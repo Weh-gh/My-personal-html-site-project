@@ -8,7 +8,8 @@ const server_conf = require('./server.conf.json');
 
 app.use(express.static(path.join(__dirname, 'src')));
 app.engine('html', ejs.renderFile);
-app.set('view engine', 'ejs')
+app.set('views', './views');
+app.set('view engine', 'ejs');
 
 // files
 app.get('/projects', (req, res) => {

@@ -219,8 +219,14 @@
         </div>
 
         <div class="mt-1">
-          <a href="/discord" class="btn btn-join Jod" style="text-align: center;"><span>Join our Discord</span></a>
+          <a href="/discord" class="btn btn-join Jod" style="text-align: center; border-radius: 0%;"><span>Join our Discord</span></a>
+          <a class="btn internalize" onclick="DownloadRepo();" style="color: #444; border: #000 1px solid; top: 50%; left: 50%; transform: translate(-70%); background-color: var(--green-light); padding: 10px 10px; border-radius: 0%;"><span><i class="bi bi-download"></i> Download repository</span></a>
         </div>
+        <script>
+          function DownloadRepo() {
+            location = "https://github.com/Weh-gh/my-site/archive/refs/heads/main.zip";
+          }
+        </script>
         <br><br><br><br><br><br><br><br>
         <!-- Finish it. -->
 
