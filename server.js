@@ -4,7 +4,7 @@ const path = require('path');
 const html = require('html');
 const php = require('php');
 const ejs = require('ejs');
-const include = require('./include.json');
+const server_conf = require('./server.conf.json');
 app.use(express.static(path.join(__dirname, 'src')));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs')
@@ -31,6 +31,6 @@ app.get('*', (req, res) => {
 })
 
 // Running a site
-app.listen(include.port, () => {
-    console.log(`app running on http://localhost:${include.port}`);
+app.listen(server_conf.port, () => {
+    console.log(`server running on http://localhost:${server_conf.port}`);
 })
