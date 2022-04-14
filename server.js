@@ -12,9 +12,6 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 // files
-app.get('/projects', (req, res) => {
-    res.render('projects.html');
-})
 app.get('/shop', (req, res) => {
     res.render('shop.html');
 })
