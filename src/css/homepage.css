@@ -49,6 +49,10 @@ div > p.pdesc {
     text-decoration: dashed;
 }
 
+.open-source-G {
+    font-size: 14px;
+}
+
 .mt-1 {
     margin-top: 2em;
 }
