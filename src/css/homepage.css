@@ -53,6 +53,12 @@ div > p.www_pdesc {
     text-decoration: none;
 }
 
+.www_footer-link {
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
 .www_download-repo {
     color: #fff;
     font-size: 14px;
