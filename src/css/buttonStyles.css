@@ -87,13 +87,13 @@ button {
     border-image: initial;
 }
 
-.buttonLarge-CC00FF22 {
+.www_buttonLarge-CC00FF22 {
     border-radius: 28px;
     font-size: 20px;
     padding: 16px 32px;
 }
 
-.button-CC00FF22 {
+.www_button-CC00FF22 {
     border-radius: 50px;
     line-height: 24px;
     cursor: pointer;
@@ -108,7 +108,7 @@ button {
     box-sizing: border-box;
 }
 
-.btn {
+.www_btn {
     color: var(--color-btn-text);
     background-color: var(--color-btn-bg);
     border-color: var(--color-btn-border);
@@ -117,7 +117,7 @@ button {
     transition-property: color,background-color,border-color;
 }
 
-.btn {
+.www_btn {
     position: relative;
     display: inline-block;
     padding: 5px 5px;
@@ -136,7 +136,7 @@ button {
     appearance: none;
 }
 
-.btn-large {
+.www_btn-large {
     position: relative;
     padding: .75em 1.5em;
     font-size: 14px;
@@ -144,7 +144,7 @@ button {
     border-radius: .5em;
 }
 
-.btn-download {
+.www_btn-download {
     position: absolute;
     display: inline-block;
     padding: 15px 20px;
@@ -156,23 +156,23 @@ button {
     text-decoration: none;
 }
 
-.btn-download span {
+.www_btn-download span {
     font-family: 'Segoe UI','Helvetica Neue','Helvetica',Arial,sans-serif; 
     color: #fff; 
     margin-left: 1em;
 }
 
-.btn-download img {
+.www_btn-download img {
     position: absolute; 
     left: 15px; 
     height: 18px;
 }
 
-.btn-download:hover {
+.www_btn-download:hover {
     background: #3d3dff;
 }
 
-.btn-danger {
+.www_btn-danger {
     color: #cf222e;
     background: #fff;
     font-family: "Segoe UI",sans-serif;
@@ -184,14 +184,14 @@ button {
     border-radius: 5px;
 }
 
-.btn-danger:hover {
+.www_btn-danger:hover {
     color: #fff;
     background: #cf222e;
     box-shadow: 0 0 30px #cf222e;
     border: 1px solid #cf222e;
 }
 
-.btn-modern {
+.www_btn-modern {
     color: #fff;
     background: #10101E;
     font-family: "Segoe UI",sans-serif;
@@ -204,12 +204,12 @@ button {
     font-size: 20px;
 }
 
-.btn-modern:hover {
+.www_btn-modern:hover {
     background: #2E94E3;
     box-shadow: 0 0 30px #2E94E3;
 }
 
-.btn-join {
+.www_btn-join {
     color: #333;
     background: #e7ecf0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -221,6 +221,6 @@ button {
     width: 200px;
 }
 
-.btn-join:hover {
+.www_btn-join:hover {
     background: #d0d7de;
 }

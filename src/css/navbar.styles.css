@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.avatar {
+.www_avatar {
     display: inline-block;
     height: 64px;
     width: 64px;
@@ -22,18 +22,18 @@ nav {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.nav-links {
+.www_nav-links {
     text-align: center !important;
     display: flex;
     justify-content: space-between;
     padding-right: 9em;
 }
 
-.nav-links li {
+.www_nav-links li {
     list-style: none;
 }
 
-.nav-links a {
+.www_nav-links a {
     color: #ffffff;
     text-decoration: none;
     align-items: center;
@@ -45,20 +45,20 @@ nav {
     border-bottom: 4px solid transparent;
 }
 
-.nav-links a:hover {
+.www_nav-links a:hover {
     color: #eee;
 }
 
-.nav-links-bg a:hover {
+.www_nav-links-bg a:hover {
     empty-cells: show;
 }
 
-.burger {
+.www_burger {
     display: none;
     cursor: pointer;
 }
 
-.burger div {
+.www_burger div {
     width: 25px;
     height: 5px;
     background-color: #fff;
@@ -67,7 +67,7 @@ nav {
 }
 
 @media screen and (max-width:1024px) {
-    .nav-links {
+    .www_nav-links {
         width: 60%;
     }
 }
@@ -77,7 +77,7 @@ nav {
         overflow-x: hidden;
     }
 
-    .nav-links {
+    .www_nav-links {
         position: absolute;
         right: 0px;
         height: 92vh;
@@ -93,16 +93,16 @@ nav {
         transition: transform 0.5s ease-in;
     }
 
-    .nav-links li {
+    .www_nav-links li {
         opacity: 0;
     }
 
-    .burger {
+    .www_burger {
         display: block;
     }
 }
 
-.nav-active {
+.www_nav-active {
     transform: translateX(0%);
 }
 
@@ -118,56 +118,14 @@ nav {
     }
 }
 
-.toogle .line1 {
+.www_toogle .www_line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-.toogle .line2 {
+.www_toogle .www_line2 {
     opacity: 0;
 }
 
-.toogle .line3 {
+.www_toogle .www_line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-}
-
-/* The dropdown container */
-.dropdown {
-    overflow: hidden;
-    padding-right: 5em;
-
-}
-  
-/* Dropdown button */
-.dropdown {    
-    margin: 0; /* Important for vertical align on mobile phones */
-}  
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    width: 150px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-.dropdown-content a:hover {
-    background-color: #eee; 
-}
-  
-/* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    color: #111;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    color: #666;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }

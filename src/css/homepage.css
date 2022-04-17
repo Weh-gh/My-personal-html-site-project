@@ -10,17 +10,17 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
-body.homepage {
+body.www_homepage {
     background-color: #3178c6;
     color: #fff;
 }
 
-.container-home {
+.www_container-home {
     padding: 50px 0 0 0;
     text-align: center;
 }
 
-div.container-home > div.container > h1.who-weh {
+div.www_container-home > div.www_container > h1.www_who-weh {
     color: #fff;
     font-size: 2.5rem;
     font-weight: 200;
@@ -30,7 +30,7 @@ div.desc {
     margin-top: 20px;
 }
 
-div > p.pdesc {
+div > p.www_pdesc {
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
@@ -39,25 +39,25 @@ div > p.pdesc {
     color: #d0d7de;
 }
 
-.weh-gh-my-site-repo {
+.www_weh-gh-my-site-repo {
     border-radius: 20px;
 }
 
-.download-repo {
+.www_download-repo {
     color: #fff;
     font-size: 14px;
     text-decoration: dashed;
 }
 
-.open-source-G {
+.www_open-source-G {
     font-size: 14px;
 }
 
-.mt-1 {
+.www_mt-1 {
     margin-top: 2em;
 }
 
-.mt-image {
+.www_mt-image {
     margin-top: 10em;
 }
 
@@ -66,23 +66,23 @@ h1 {
 }
 
 /* logo */
-.ml-1-weh {
+.www_ml-1-weh {
     margin-left: 16px !important;
 }
 
-.mg-2-weh {
+.www_mg-2-weh {
     margin-left: 32px;
 }
 
-.mg-3-weh {
+.www_mg-3-weh {
     margin-left: 64px;
 }
 
-div.featureimage {
+div.www_featureimage {
     text-align: center;
     padding: 50px;
 }
 
-.provide-5em {
+.www_provide-5em {
     padding-right: 5em;
 }
