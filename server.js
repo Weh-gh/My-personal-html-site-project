@@ -21,9 +21,6 @@ app.get('/about', (req, res) => {
 app.get('/open-source', (req, res) => {
     res.render('open-source.html');
 })
-app.get('/search', (req, res) => {
-    res.render('search.html');
-})
 app.get('/discord', (req, res) => {
     res.render('discord.html');
 })
