@@ -12,7 +12,7 @@ body {
 
 body.www_homepage {
     background-color: #3178c6;
-    color: #fff;
+    color: #ffffff;
 }
 
 .www_container-home {
@@ -43,14 +43,20 @@ div > p.www_pdesc {
     border-radius: 20px;
 }
 
+.www_browse-other-things {
+    background-color: #126baf;
+    padding: 35px;
+    font-size: smaller;
+}
+
+.www_browse-other-things a {
+    text-decoration: none;
+}
+
 .www_download-repo {
     color: #fff;
     font-size: 14px;
     text-decoration: dashed;
-}
-
-.www_open-source-G {
-    font-size: 14px;
 }
 
 .www_mt-1 {
