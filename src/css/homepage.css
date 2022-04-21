@@ -43,20 +43,11 @@ div > p.www_pdesc {
     border-radius: 20px;
 }
 
-.www_browse-other-things {
+.www_footer-container {
     background-color: #126baf;
-    padding: 35px;
+    padding: 50px;
+    height: 200px;
     font-size: smaller;
-}
-
-.www_browse-other-things a {
-    text-decoration: none;
-}
-
-.www_footer-link {
-    color: #000;
-    font-size: 20px;
-    letter-spacing: 4px;
 }
 
 .www_download-repo {
